@@ -1,4 +1,3 @@
-import user_image from "./user-image.png";
 import code_icon from "./code-icon.png";
 import code_icon_dark from "./code-icon-dark.png";
 import edu_icon from "./edu-icon.png";
@@ -37,7 +36,6 @@ import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 
 export const assets = {
-  user_image,
   code_icon,
   code_icon_dark,
   edu_icon,
@@ -78,52 +76,58 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
+    title: "Travel Nest",
+    description: "Vacation Rental Web",
     bgImage: "/work-1.png",
+    link: "https://github.com/ShubhamSingh-dev/Airbnb-Project",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "Career Connect",
+    description: "Networking Web",
     bgImage: "/work-2.png",
+    link: "https://github.com/ShubhamSingh-dev/LinkedIn-Clone",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "Frontend Core",
+    description: "GSAP Animation",
     bgImage: "/work-3.png",
+    link: "https://github.com/ShubhamSingh-dev/Frontend-project-1",
   },
   {
     title: "UI/UX designing",
     description: "UI/UX Design",
     bgImage: "/work-4.png",
+    link: "",
   },
 ];
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
-  },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
+    title: "Fullstack web development",
     description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
-  },
-  {
-    icon: assets.ui_icon,
-    title: "UI/UX design",
-    description:
-      "UI/UX design focuses on creating a seamless user experience...",
+      "Design and develop responsive, scalable web applications using technologies like MERN stack, TypeScript, and Next.js...",
     link: "",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    title: "Frontend development",
+    description:
+      "Build engaging, user-friendly interfaces with modern frameworks like React and ensure smooth user experiences..",
+    link: "",
+  },
+  {
+    icon: assets.ui_icon,
+    title: "Backend development",
+    description:
+      "Develop robust APIs and server-side solutions using Node.js, Express, and database management with MongoDB....",
+    link: "",
+  },
+  {
+    icon: assets.mobile_icon,
+    title: "Web performance optimization",
+    description:
+      "Improve website performance by optimizing load times, enhancing responsiveness, and ensuring a seamless experience...",
     link: "",
   },
 ];

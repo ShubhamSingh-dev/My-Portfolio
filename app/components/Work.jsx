@@ -34,10 +34,9 @@ const Work = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
-        voluptatem quisquam voluptates cumque sapiente nemo, magnam odio
-        consequatur cupiditate, sint, veniam unde ut praesentium atque nostrum
-        sequi vero fugiat quibusdam.
+        Welcome to my Web Development portfolio! Explore a collection of my
+        latest projects showcasing my skills in web development. Feel free to
+        check them out!
       </motion.p>
 
       <motion.div
@@ -54,15 +53,17 @@ const Work = ({ isDarkMode }) => {
             style={{ backgroundImage: `url(${project.bgImage})` }}
             className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group "
           >
-            <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex justify-between items-center duration-500 group-hover:bottom-7">
-              <div>
-                <h2 className="font-semibold">{project.title}</h2>
-                <p className="text-sm text-gray-700">{project.description}</p>
+            <a href={project.link} className="block w-full h-full">
+              <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex justify-between items-center duration-500 group-hover:bottom-7">
+                <div>
+                  <h2 className="font-semibold">{project.title}</h2>
+                  <p className="text-sm text-gray-700">{project.description}</p>
+                </div>
+                <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0px_#000] group-hover:bg-lime-300 transition">
+                  <Image src={assets.send_icon} alt="" className="w-5" />
+                </div>
               </div>
-              <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0px_#000] group-hover:bg-lime-300 transition">
-                <Image src={assets.send_icon} alt="" className="w-5" />
-              </div>
-            </div>
+            </a>
           </motion.div>
         ))}
       </motion.div>

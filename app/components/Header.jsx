@@ -38,10 +38,9 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius officiis
-        earum explicabo quasi dolorum laboriosam dicta ea consequatur reiciendis
-        natus quae rem adipisci, recusandae expedita nemo, distinctio esse dolor
-        consequuntur.
+        A passionate full-stack developer from India and a fresher in college.
+        I enjoy staying updated with the latest tech trends and have built 5+ 
+        projects using technologies like MERN stack, TypeScript, and Next.js.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

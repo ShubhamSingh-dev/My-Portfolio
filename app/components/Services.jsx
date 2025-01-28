@@ -35,10 +35,13 @@ const Services = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
-        voluptatem quisquam voluptates cumque sapiente nemo, magnam odio
-        consequatur cupiditate, sint, veniam unde ut praesentium atque nostrum
-        sequi vero fugiat quibusdam.
+        I offer full-stack web development services using MERN stack and
+        Next.js, along with frontend development using React and TypeScript. On
+        the backend, I build scalable solutions with Node.js and Express. I’m
+        also exploring machine learning to expand my skill set. Additionally, I
+        specialize in web performance optimization to ensure fast, responsive
+        websites and offer project consultation to help implement modern,
+        effective web solutions.
       </motion.p>
 
       <motion.div

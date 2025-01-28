@@ -66,10 +66,14 @@ const About = ({ isDarkMode }) => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3, ease: "easeInOut" }}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            sequi provident soluta? Repellat obcaecati illo dicta aspernatur
-            quas sequi temporibus fugiat quam? Molestias vel facere porro,
-            incidunt ullam amet voluptatum?
+            I’m a passionate full-stack developer from India and a fresher in
+            college, always eager to stay updated with the latest tech trends.
+            I’ve built 5+ projects using technologies like MERN stack,
+            TypeScript, and Next.js, focusing on creating scalable and dynamic
+            web applications. Currently, I’m exploring machine learning to
+            enhance my skills and broaden my expertise. My goal is to create
+            impactful solutions through technology while continuously learning
+            and collaborating on exciting projects.
           </motion.p>
 
           {/* Info Cards */}
