@@ -1,1 +1,1 @@
-My Portfolio is good and my
+My Portfolio is good and my idea
